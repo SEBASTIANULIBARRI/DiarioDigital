@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index,follow"><!-- no lo pude probar pero en el video de midu le cambia el color al tema de la pagina para que quede mas visual.-->
+    <meta name="theme-color" content="#8f7ada"><!-- no lo pude probar pero en el video de midu le cambia el color al tema de la pagina para que quede mas visual.-->
+    <link rel="icon" href="./images/favicon.ico"> <!-- es el icono que se pone en el titulo de la pagina-->
+    <link rel="apple-touch-icon" href="./images/favicon.ico">
+
+    <meta name="description" content="DESCRIPCION de la pagina, es lo que gralmente muestra google">
+
+    <title>Titulo de la pestania</title>  <!-- MUY IMPORTANTE para el seo-->
+
+    <link rel="alternate" href="./index_en.html" hreflang="en-gb"> <!-- sirve para el seo e indicarle que cualquiera de las alternativas son tus paginas.-->
+</head>
+<body>
+    <header>Aqui va el header</header>        
+    <main id="main"> <!--Es unico y es el contenido que va a cambiar entre distintas paginas -->
+        <header>Aqui va el header del main</header>  <!-- Puede ser omitido -->
+        <dialog open>
+            <p>Titulos</p>
+          </dialog>
+        <!-- Encabezados -->
+        <h1 title="tooltip para encabezado de       nivel 1 con atributo title">encabezado de       nivel 1</h1>
+        <h2 title="tooltip para encabezado de       nivel 2 con atributo title">encabezado de       nivel 2</h2>
+        <h3 title="tooltip para encabezado de       nivel 3 con atributo title">encabezado de       nivel 3</h3>
+        <h4 title="tooltip para encabezado de       nivel 4 con atributo title">encabezado de       nivel 4</h4>
+        <h5 title="tooltip para encabezado de       nivel 5 con atributo title">encabezado de       nivel 5</h5>
+        <h6 title="tooltip para encabezado de       nivel 6 con atributo title">encabezado de       nivel 6</h6>
+        <!-- Parrafo -->
+        <p>parrafo</p>
+
+        <!-- Listas -->
+        <dialog open>
+            <p>orderer list</p>
+          </dialog>
+        <ol >
+            <li>elemento 1 de lista ordenada </li>
+            <li>elemento 2 de lista ordenada </li>
+            <li>elemento 3 de lista ordenada </li>
+            <ol type="i" start="5">  <!-- le cambie el tipo en vez de numero muestre en numeros romanos. El start toma igual de numeros normales.-->
+                <li>elemento hijo 1 de lista ordenada </li>
+                <li>elemento hijo 2 de lista ordenada </li>
+                <li>elemento hijo 3 de lista ordenada </li>
+            </ol>
+        </ol>
+        <dialog open>
+            <p> unorderer list</p>
+          </dialog>
+        <ul>
+            <li>elemento 1 de lista desordenada </li>
+            <li>elemento 2 de lista desordenada </li>
+            <li>elemento 3 de lista desordenada </li>
+            <ul>
+                <li>elemento hijo 1 de lista desordenada </li>
+                <li>elemento hijo 2 de lista desordenada </li>
+                <li>elemento hijo 3 de lista desordenada </li>
+            </ul>
+        </ul>   
+        <span>Esto es un span</span>
+
+        <!-- semantica -->
+        <aside>Esto es un aside</aside> <!-- algo       que esta anexado, es suplementario al       contenido que le estamos dando-->
+
+        <article> <!--Podria ser un bloque      independiente de informacion. Tiene     sentido por si mismo-->
+            <header>header del articulo</header>
+            Esto es un articulo que podria ser externo.
+            <footer></footer>
+        </article>  
+
+        <section>Esto es una seccion</section>      <!-- divide distintas secciones de la       pagina-->
+
+
+        <button >Esto es un boton</button>
+        <style>label{
+            display: block;
+        }</style>
+        <!-- Formularios--> 
+        <form action="/" method="post">
+            <h3>aqui va el formulario</h3> 
+            <label >Nombre:  <input type="text" name="" id=""></label>
+
+            <label for="Nombre">Nombre: </label> <input type="text" name="Nombre" id="Nombre" placeholder="Ingrese su nombre" required pattern="[a-z]{9}" min="9" max="10"> <!-- max verifica despues. maxlenght no te deja meter mas de lo que indiques. -->
+
+            <label for="email">email: </label> <input type="email" name="email" id="email" placeholder="Ingrese su email">
+            <label for="password">password: </label> <input type="password" name="password" id="password" placeholder="Ingrese su password">
+        
+            <label for="telefono">telefono: </label> <input type="tel" name="telefono" id="telefono" placeholder="Ingrese su telefono">
+
+            <!-- The second value will be selected initially -->
+            <label for="select">Seleccione el Lenguaje que desea aprender: </label>
+            <select name="select">
+                <option value="JS">JS</option>
+                <option value="Python" selected>Python</option>
+                <option value="Java">Java</option>
+            </select>
+
+            <label>Choose a browser from this list: <input list="browsers" name="myBrowser"/></label>
+            <datalist id="browsers">
+              <option value="Chrome"></option>
+              <option value="Firefox"></option>
+              <option value="Internet Explorer"></option>
+              <option value="Opera"></option>
+              <option value="Safari"></option>
+              <option value="Microsoft Edge"></option>
+            </datalist>
+
+            <input type="submit" value="Submit">
+
+        </form>
+        <details >
+            <summary>Algo que necesite un detallado</summary>
+            <a href="https://www.instagram.com/">soy el detlle que se abre cuando presionas la flecha</a>
+        </details>
+        <details open>
+            <summary>Algo que necesite un detallado</summary>
+            soy el detlle que se abre por defecto cuando carga la pag por atributo open
+        </details>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25380.460848890776!2d-59.1265792!3d-37.3293056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1712663664551!5m2!1ses-419!2sar"  style="border:0;" allowfullscreen="" loading="lazy" 
+     
+        referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <!-- El loading lazy sirve para evitar cargar toda la pagina de una y va a ir cargando dde a partes.-->
+
+    </main>
+
+   
+      
+
+    <footer>
+        <small>aqui va el footer</small> 
+        <a href="#main"> ir al inicio</a>
+        <a href="https://www.instagram.com/" target="_blank" rel="noreferer"> instagram</a>
+    </footer>
+</body>
+</html>
