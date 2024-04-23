@@ -2,7 +2,8 @@
   "posts":[
     {
       "id":1,
-      "title":"hello"
+      "title":"hello",
+      "url_img":"https://http2.mlstatic.com/D_NQ_NP_885939-MLU70423332768_072023-O.webp"
     }
   ],
   "profile": {
