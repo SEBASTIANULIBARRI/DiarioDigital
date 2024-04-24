@@ -2,8 +2,13 @@
   "posts":[
     {
       "id":1,
-      "title":"hello",
+      "title":"Shampoo",
       "url_img":"https://http2.mlstatic.com/D_NQ_NP_885939-MLU70423332768_072023-O.webp"
+    },
+    {
+      "id":2,
+      "title":"Escritorio",
+      "url_img":"https://http2.mlstatic.com/D_NQ_NP_887807-MLA54972787829_042023-O.webp"
     }
   ],
   "profile": {
