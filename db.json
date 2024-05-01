@@ -1,8 +1,20 @@
 {
   "posts": [
     {
-      "id": 1,
-      "title": "hello"
+      "id":1,
+      "title": "AcondicionadorTresemme",
+      "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
+      "precio" : 1500,
+      "Stock" : 15
+      "url_img": "./../Images/AcondicionadorTresemme.png"
+    },
+    {
+      "id":2,
+      "title": "DelineadorLiquido",
+      "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
+      "precio" : 1500,
+      "Stock" : 15
+      "url_img": "./../Images/DelineadorLiquido.png"
     }
   ],
   "profile": {
