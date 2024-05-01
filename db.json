@@ -47,37 +47,6 @@
       "precio" : 1500,
       "Stock" : 15
       "url_img": "./../Images/ShampooAveno.png"
-    },    {
-      "id":7,
-      "title": "ShampooControlex",
-      "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
-      "precio" : 1500,
-      "Stock" : 15
-      "url_img": "./../Images/ShampooControlex.png"
-    },
-    {
-      "id":8,
-      "title": "ShampooDove",
-      "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
-      "precio" : 1500,
-      "Stock" : 15
-      "url_img": "./../Images/ShampooDove.png"
-    },
-        {
-      "id":9,
-      "title": "ShampooElvive",
-      "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
-      "precio" : 1500,
-      "Stock" : 15
-      "url_img": "./../Images/ShampooElvive.png"
-    },
-    {
-      "id":10,
-      "title": "ShampooGarner",
-      "descripcion": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab quia facilis officia minima dolores cum, dolore similique sit cumque ullam debitis quaerat id dolorem veritatis officiis alias sint possimus magni.",
-      "precio" : 1500,
-      "Stock" : 15
-      "url_img": "./../Images/ShampooGarner.png"
     }
   ]
 ,
